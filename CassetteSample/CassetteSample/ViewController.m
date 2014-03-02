@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-@property (nonatomic) IBOutlet UITableView *cassetteTableView;
+@interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView *cassetteTable;
 @end
 
 @implementation ViewController
