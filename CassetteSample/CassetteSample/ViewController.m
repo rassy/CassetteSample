@@ -20,7 +20,7 @@
 	NSLog(@"viewDidLoad");
 }
 - (void)viewDidLayoutSubviews {
-    
+    NSLog(@"viewDidLayoutSubviews");
 }
 - (void)didReceiveMemoryWarning
 {
